@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lVPAYNI3apRrLsv+2gWJabbHbcdiYI+ZicnEDnwPe30UpXNJqHxDK6JIRn80B1UEumI9y3HiyQI79UDX764kEA==",
+  "success": true,
+  "projectFilePath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/muhammedkilic/.nuget/packages/mongodb.bson/2.17.1/mongodb.bson.2.17.1.nupkg.sha512",
+    "/Users/muhammedkilic/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

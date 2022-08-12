@@ -1,0 +1,455 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/API/API.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj"
+              },
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/Business.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/Business.csproj"
+              },
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MicroElements.Swashbuckle.FluentValidation": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.48, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj",
+        "projectName": "BackgroundJobs",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/Business.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/BackgroundJobs/BackgroundJobs.csproj"
+              },
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj"
+              },
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/DTO.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/DTO.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj": {
+                "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/DAL/DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/Models.csproj",
+        "packagesPath": "/Users/muhammedkilic/.nuget/packages/",
+        "outputPath": "/Users/muhammedkilic/Projects/Graduation_Project/TödebCamp/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/muhammedkilic/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

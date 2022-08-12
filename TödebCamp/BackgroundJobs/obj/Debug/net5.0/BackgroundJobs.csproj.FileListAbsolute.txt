@@ -1,0 +1,12 @@
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/bin/Debug/net5.0/BackgroundJobs.deps.json
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/bin/Debug/net5.0/BackgroundJobs.dll
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/bin/Debug/net5.0/ref/BackgroundJobs.dll
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/bin/Debug/net5.0/BackgroundJobs.pdb
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.csproj.AssemblyReference.cache
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.AssemblyInfoInputs.cache
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.AssemblyInfo.cs
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.csproj.CoreCompileInputs.cache
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.dll
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/ref/BackgroundJobs.dll
+/Users/muhammedkilic/Projects/TödebCamp/BackgroundJobs/obj/Debug/net5.0/BackgroundJobs.pdb

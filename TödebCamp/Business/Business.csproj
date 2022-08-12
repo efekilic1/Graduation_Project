@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Abstract\" />
+    <None Remove="Concrete\" />
+    <None Remove="Configuration\" />
+    <None Remove="Configuration\Response\" />
+    <None Remove="Configuration\Auth\" />
+    <None Remove="Configuration\HashHelper\" />
+    <None Remove="Configuration\Mapper\" />
+    <None Remove="FluentValidation" />
+    <None Remove="Configuration\Validator\" />
+    <None Remove="Configuration\Validator\FluentValidor\" />
+    <None Remove="Configuration\Extensions\" />
+    <None Remove="AutoMapper" />
+    <None Remove="Microsoft.Extensions.Configuration.Binder" />
+    <None Remove="Configuration\Validator\FluentValidation\BillValidation\" />
+    <None Remove="Configuration\Validator\FluentValidation\VouncherValidation\" />
+    <None Remove="Configuration\Validator\FluentValidation\ApartmentValidation\" />
+    <None Remove="Configuration\Cache\" />
+    <None Remove="Configuration\Validator\FluentValidation\MessageValidation\" />
+    <None Remove="Microsoft.AspNetCore.Http.Features" />
+    <None Remove="Microsoft.AspNetCore.Http.Abstractions" />
+    <None Remove="Configuration\Helper\" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Configuration\Filters\" />
+    <None Remove="Configuration\Filters\Exeption\" />
+    <None Remove="Configuration\Filters\Validation\" />
+    <None Remove="Configuration\Filters\Logs\" />
+    <None Remove="Serilog.Sinks.MSSqlServer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Configuration\Response\" />
+    <Folder Include="Configuration\Auth\" />
+    <Folder Include="Configuration\HashHelper\" />
+    <Folder Include="Configuration\Mapper\" />
+    <Folder Include="Configuration\Validator\" />
+    <Folder Include="Configuration\Validator\FluentValidation\" />
+    <Folder Include="Configuration\Extensions\" />
+    <Folder Include="Configuration\Validator\FluentValidation\BillValidation\" />
+    <Folder Include="Configuration\Validator\FluentValidation\VouncherValidation\" />
+    <Folder Include="Configuration\Validator\FluentValidation\ApartmentValidation\" />
+    <Folder Include="Configuration\Cache\" />
+    <Folder Include="Configuration\Validator\FluentValidation\MessageValidation\" />
+    <Folder Include="Configuration\Helper\" />
+    <Folder Include="Configuration\Filters\" />
+    <Folder Include="Configuration\Filters\Exeption\" />
+    <Folder Include="Configuration\Filters\Validation\" />
+    <Folder Include="Configuration\Filters\Logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
+    <ProjectReference Include="..\BackgroundJobs\BackgroundJobs.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.0" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="5.7.1" />
+  </ItemGroup>
+</Project>

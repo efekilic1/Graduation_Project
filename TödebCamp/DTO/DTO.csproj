@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Customer\" />
+    <None Remove="Apartment\" />
+    <None Remove="Voucher\" />
+    <None Remove="Bill\" />
+    <None Remove="Tokens\" />
+    <None Remove="AuthDto\" />
+    <None Remove="Message\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User\" />
+    <Folder Include="Apartment\" />
+    <Folder Include="Voucher\" />
+    <Folder Include="Bill\" />
+    <Folder Include="Tokens\" />
+    <Folder Include="Auth\" />
+    <Folder Include="Message\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+</Project>
