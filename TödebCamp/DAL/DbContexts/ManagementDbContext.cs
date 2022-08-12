@@ -25,7 +25,7 @@ namespace DAL.DbContexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-           base.OnConfiguring(optionBuilder.UseSqlServer("server=localhost; database=muhammedkilic1; user=sa; password=mY_1pssMk"));
+           base.OnConfiguring(optionBuilder.UseSqlServer("server=.; database=muhammedkilic; Trusted_Connection=True;"));
             //var connectionString = _configuration.GetConnectionString("MsComm");
            // base.OnConfiguring(optionBuilder.UseSqlServer(connectionString));
         }
