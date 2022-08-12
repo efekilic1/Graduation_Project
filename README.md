@@ -15,6 +15,16 @@ TÖDEB .NET Bootcampi Bitirme Projesi
 * Hangfire
 * Xunit
 
+Başta bizden her türlü desteği esirgemeyen ve harika bir bootcamp deneyimi yaşamamıza olanak sağlayan değerli hocamız Murat Kurtboğan olmak üzere bize bu imkanı veren Patika.dev ailesi ve TÖDEB topluluğuna sonsuz teşekkür ederim.
+
+
+
+
+MSSQL bağlantı stringi TödebCamp/DAL/TodebCampDbContext.cs dosyası içerisindedir.
+Hangfire bağlantı stringi TödebCamp/API/appsettings.Development.json  ve TödebCamp/API/appsettings.json içerisindedir.
+
+
+
 
 
 
