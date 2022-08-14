@@ -28,7 +28,7 @@ MSSQL bağlantı stringi TödebCamp/DAL/TodebCampDbContext.cs dosyası içerisin
 
 Hangfire bağlantı stringi TödebCamp/API/appsettings.Development.json  ve TödebCamp/API/appsettings.json içerisindedir.
 
-PaymentService/appsettings.Development.json ve  PaymentService/API/appsettings.json içerisindedir.
+Logging Service ConnectionStrings, PaymentService/appsettings.Development.json ve  PaymentService/API/appsettings.json içerisindedir.
 
 
 
