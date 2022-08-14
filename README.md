@@ -20,10 +20,15 @@ Başta bizden her türlü desteği esirgemeyen ve harika bir bootcamp deneyimi y
 
 
 
+
+
+
 MSSQL bağlantı stringi TödebCamp/DAL/TodebCampDbContext.cs dosyası içerisindedir.
+
+
 Hangfire bağlantı stringi TödebCamp/API/appsettings.Development.json  ve TödebCamp/API/appsettings.json içerisindedir.
 
-
+PaymentService/appsettings.Development.json ve  PaymentService/API/appsettings.json içerisindedir.
 
 
 
