@@ -158,11 +158,13 @@ Logging Service ConnectionStrings, PaymentService/appsettings.Development.json v
 
 ### Delete Apartment Request and Response (Admin)
 
-<img width="751" alt="4" src="https://user-images.githubusercontent.com/105243448/184406127-954ebab4-24a1-4ba6-8924-21d53279858d.png">
-<img width="611" alt="5" src="https://user-images.githubuserco<img width="1252" alt="6" src="https://user-images.githubusercontent.com/105243448/184406142-03d73535-cfce-4585-a9aa-2d37eb8709c9.png">
-ntent.com/105243448/184406131-56b73836-d025-4205-b10d-1e332f96f83e.png">
-<img width="1227" alt="7" src="https://user-images.githubusercontent.com/105243448/184406183-e752c0df-cf18-462b-a174-9b848ab6f28c.png">
-<img width="610" alt="8" src="https://user-images.githubusercontent.com/105243448/184406220-2d5e327b-d7c2-400d-9e26-f48167f1f1d7.png">
+<img width="727" alt="1" src="https://user-images.githubusercontent.com/105243448/184549244-4964a838-fb17-4eb9-91ab-e13a67b83246.png">
+<img width="1260" alt="2" src="https://user-images.githubusercontent.com/105243448/184549246-4a58ef85-0dd2-45b2-a57d-fe2df295ef25.png">
+<img width="1231" alt="3" src="https://user-images.githubusercontent.com/105243448/184549249-2b7ae2f4-20d1-45a3-a520-1db507da5a5b.png">
+<img width="751" alt="4" src="https://user-images.githubusercontent.com/105243448/184549266-483c0c86-8779-4485-ac34-efb8acff5f41.png">
+
+
+
 
 
 ### Delete Message Request and Response (Admin)
