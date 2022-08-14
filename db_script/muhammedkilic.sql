@@ -103,11 +103,11 @@ set identity_insert [Messages] off;
 
 
 
---create table [UserPasswords] (
---[Id] [int] identity,
---[UserId] [int],
---[PasswordSalt] [varbinary] (max) NULL,
---[PasswordHash] [varbinary] (max) NULL);
+create table [UserPasswords] (
+[Id] [int] identity,
+[UserId] [int],
+[PasswordSalt] [varbinary] (max) NULL,
+[PasswordHash] [varbinary] (max) NULL);
 
 
 
@@ -131,15 +131,15 @@ select 3011,3011,0xC56E26116F4322C1699244CDDBBF6A92B5A6746E96926590CF09D5025169C
 set identity_insert [UserPasswords] off;
 
 
---create table [Users] (
---[Id] [int] identity,
---[Name] [nvarchar] (max) NULL,
---[Surname] [nvarchar] (max) NULL,
---[TcNo] [nvarchar] (max) NULL,
---[Email] [nvarchar] (max) NULL,
---[PhoneNumber] [nvarchar] (max) NULL,
---[CarPlate] [nvarchar] (max) NULL,
---[Role] [int]);
+create table [Users] (
+[Id] [int] identity,
+[Name] [nvarchar] (max) NULL,
+[Surname] [nvarchar] (max) NULL,
+[TcNo] [nvarchar] (max) NULL,
+[Email] [nvarchar] (max) NULL,
+[PhoneNumber] [nvarchar] (max) NULL,
+[CarPlate] [nvarchar] (max) NULL,
+[Role] [int]);
 
 
 
@@ -164,12 +164,12 @@ set identity_insert [Users] off;
 
 
 
---create table [Logs] (
---[Id] [int] identity,
---[MessageTemplate] [nvarchar] (max) NULL,
---[Level] [nvarchar] (max) NULL,
---[TimeStamp] [datetime] NULL,
---[Exception] [nvarchar] (max) NULL);
+create table [Logs] (
+[Id] [int] identity,
+[MessageTemplate] [nvarchar] (max) NULL,
+[Level] [nvarchar] (max) NULL,
+[TimeStamp] [datetime] NULL,
+Exception] [nvarchar] (max) NULL);
 
 
 
