@@ -49,6 +49,12 @@ namespace Bussines.Concrete
             validator.ValidateAndThrow(request);
 
             var vc = _billRepository.Get(x => x.Id == request.BillId);
+            
+            if(vc.IsPaid == true)
+            {
+                throw new Exception("The invoice has already been paid.");
+            }
+            
             if (vc.Amount != request.Amount)
             {
                 throw new Exception("Please enter amount correctly"); 
