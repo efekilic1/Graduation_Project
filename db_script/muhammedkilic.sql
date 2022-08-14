@@ -169,7 +169,7 @@ create table [Logs] (
 [MessageTemplate] [nvarchar] (max) NULL,
 [Level] [nvarchar] (max) NULL,
 [TimeStamp] [datetime] NULL,
-Exception] [nvarchar] (max) NULL);
+[Exception] [nvarchar] (max) NULL);
 
 
 
